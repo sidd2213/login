@@ -1,6 +1,6 @@
 // app.js
 const CLIENT_ID = "235777072381-0rosmr2j2mif83l908iq170qpu30hb3j.apps.googleusercontent.com"; // ← your client ID
-const QUIZ_URL = "https://sidd2213.github.io/login"; // ← your Google Sites quiz URL
+const QUIZ_URL = "https://sidd2213.github.io/Diwali-1"; // ← your Google Sites quiz URL
 
 function decodeJwt(token) {
   try {
@@ -55,4 +55,5 @@ document.getElementById("emailLoginBtn").addEventListener("click", () => {
     alert("Invalid email or password!");
   }
 });
+
 
